@@ -108,7 +108,7 @@ Public Class frmInvoice
                 Dim ivController As Controller = New Controller
                 ivController.invoiceController(htData)
 
-                'MessageBox.Show("The record was inserted.")
+                MessageBox.Show("The record was inserted.")
 
             Else : Debug.Print("One of the fields was invalid")
 
