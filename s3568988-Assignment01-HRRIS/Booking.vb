@@ -170,7 +170,7 @@ Public Class frmBooking
     End Sub
 
     Private Sub txtNumOfDay_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtNumOfDay.TextChanged
-
+        picErrorField3.Visible = False
         Try
 
             If cbbRoomId.SelectedIndex > -1 Then
@@ -198,7 +198,7 @@ Public Class frmBooking
     End Sub
 
     Private Sub cbbRoomId_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cbbRoomId.SelectedIndexChanged
-
+        picErrorField1.Visible = False
         Try
 
             If cbbRoomId.SelectedIndex > -1 Then
@@ -279,5 +279,13 @@ Public Class frmBooking
     Private Sub ControlBreakReportToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ControlBreakReportToolStripMenuItem.Click
         My.Forms.frmControlBreakReport.Show()
 
+    End Sub
+
+    Private Sub txtCusId_TextChanged(sender As Object, e As EventArgs) Handles txtCusId.TextChanged
+        picErrorField2.Visible = False
+    End Sub
+
+    Private Sub txtNumOfGuest_TextChanged(sender As Object, e As EventArgs) Handles txtNumOfGuest.TextChanged
+        picErrorField4.Visible = False
     End Sub
 End Class

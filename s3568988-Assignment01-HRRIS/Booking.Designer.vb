@@ -56,12 +56,12 @@ Partial Class frmBooking
         Me.RoomToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BookingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NormalReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ControlBreakReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ViewHelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutUsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.NormalReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ControlBreakReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.picErrorField1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picErrorField2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picErrorField3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -336,6 +336,18 @@ Partial Class frmBooking
         Me.ReportToolStripMenuItem.Size = New System.Drawing.Size(54, 20)
         Me.ReportToolStripMenuItem.Text = "Report"
         '
+        'NormalReportToolStripMenuItem
+        '
+        Me.NormalReportToolStripMenuItem.Name = "NormalReportToolStripMenuItem"
+        Me.NormalReportToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
+        Me.NormalReportToolStripMenuItem.Text = "Normal Report"
+        '
+        'ControlBreakReportToolStripMenuItem
+        '
+        Me.ControlBreakReportToolStripMenuItem.Name = "ControlBreakReportToolStripMenuItem"
+        Me.ControlBreakReportToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
+        Me.ControlBreakReportToolStripMenuItem.Text = "Control Break Report"
+        '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewHelpToolStripMenuItem, Me.AboutUsToolStripMenuItem})
@@ -363,18 +375,6 @@ Partial Class frmBooking
         Me.ToolTip1.ReshowDelay = 20
         Me.ToolTip1.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info
         Me.ToolTip1.ToolTipTitle = "Be cautious"
-        '
-        'NormalReportToolStripMenuItem
-        '
-        Me.NormalReportToolStripMenuItem.Name = "NormalReportToolStripMenuItem"
-        Me.NormalReportToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
-        Me.NormalReportToolStripMenuItem.Text = "Normal Report"
-        '
-        'ControlBreakReportToolStripMenuItem
-        '
-        Me.ControlBreakReportToolStripMenuItem.Name = "ControlBreakReportToolStripMenuItem"
-        Me.ControlBreakReportToolStripMenuItem.Size = New System.Drawing.Size(184, 22)
-        Me.ControlBreakReportToolStripMenuItem.Text = "Control Break Report"
         '
         'frmBooking
         '
