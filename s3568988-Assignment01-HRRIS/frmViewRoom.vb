@@ -160,6 +160,8 @@ Public Class frmViewRoom
                 cmd.ExecuteNonQuery()
                 oConnection.Close()
 
+                MsgBox("The record is successfully updated")
+
                 loadGrid()
                 txtRoomId.Clear()
                 txtRoomNumber.Clear()

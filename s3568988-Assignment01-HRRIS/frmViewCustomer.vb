@@ -175,6 +175,8 @@ Public Class frmViewCustomer
                 cmd.ExecuteNonQuery()
                 oConnection.Close()
 
+                MsgBox("The record is successfully updated")
+
                 loadGrid()
                 txtCusId.Clear()
                 cbbTitle.SelectedIndex = -1
@@ -275,7 +277,7 @@ Public Class frmViewCustomer
 
     End Sub
 
-    Private Sub btnFind_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnFind.Click
+    Private Sub btnFind_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Dim oController As CustomerController = New CustomerController
 
         Dim cId = txtCusId.Text

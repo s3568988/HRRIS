@@ -78,7 +78,6 @@ Partial Class frmViewCustomer
         Me.btnDelete = New System.Windows.Forms.Button()
         Me.btnFilter = New System.Windows.Forms.Button()
         Me.txtFilter = New System.Windows.Forms.TextBox()
-        Me.btnFind = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
         Me.btnLast = New System.Windows.Forms.Button()
         Me.btnNext = New System.Windows.Forms.Button()
@@ -259,9 +258,9 @@ Partial Class frmViewCustomer
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(31, 508)
+        Me.btnUpdate.Location = New System.Drawing.Point(11, 508)
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(113, 23)
+        Me.btnUpdate.Size = New System.Drawing.Size(76, 23)
         Me.btnUpdate.TabIndex = 86
         Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = True
@@ -501,9 +500,9 @@ Partial Class frmViewCustomer
         '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(187, 508)
+        Me.btnDelete.Location = New System.Drawing.Point(133, 508)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(113, 23)
+        Me.btnDelete.Size = New System.Drawing.Size(74, 23)
         Me.btnDelete.TabIndex = 107
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
@@ -524,20 +523,11 @@ Partial Class frmViewCustomer
         Me.txtFilter.Size = New System.Drawing.Size(784, 20)
         Me.txtFilter.TabIndex = 109
         '
-        'btnFind
-        '
-        Me.btnFind.Location = New System.Drawing.Point(31, 563)
-        Me.btnFind.Name = "btnFind"
-        Me.btnFind.Size = New System.Drawing.Size(113, 23)
-        Me.btnFind.TabIndex = 110
-        Me.btnFind.Text = "Find"
-        Me.btnFind.UseVisualStyleBackColor = True
-        '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(187, 563)
+        Me.btnClear.Location = New System.Drawing.Point(251, 508)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(113, 23)
+        Me.btnClear.Size = New System.Drawing.Size(74, 23)
         Me.btnClear.TabIndex = 111
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = True
@@ -588,7 +578,6 @@ Partial Class frmViewCustomer
         Me.Controls.Add(Me.btnPrev)
         Me.Controls.Add(Me.btnFirst)
         Me.Controls.Add(Me.btnClear)
-        Me.Controls.Add(Me.btnFind)
         Me.Controls.Add(Me.txtFilter)
         Me.Controls.Add(Me.btnFilter)
         Me.Controls.Add(Me.btnDelete)
@@ -693,7 +682,6 @@ Partial Class frmViewCustomer
     Friend WithEvents btnDelete As System.Windows.Forms.Button
     Friend WithEvents btnFilter As System.Windows.Forms.Button
     Friend WithEvents txtFilter As System.Windows.Forms.TextBox
-    Friend WithEvents btnFind As System.Windows.Forms.Button
     Friend WithEvents btnClear As System.Windows.Forms.Button
     Friend WithEvents btnLast As System.Windows.Forms.Button
     Friend WithEvents btnNext As System.Windows.Forms.Button

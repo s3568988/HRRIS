@@ -78,7 +78,6 @@ Partial Class frmViewBooking
         Me.txtFilter = New System.Windows.Forms.TextBox()
         Me.btnFilter = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
-        Me.btnFind = New System.Windows.Forms.Button()
         Me.btnDelete = New System.Windows.Forms.Button()
         Me.btnUpdate = New System.Windows.Forms.Button()
         CType(Me.BookingBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -183,7 +182,7 @@ Partial Class frmViewBooking
         'picErrorField4
         '
         Me.picErrorField4.Image = Global.s3568988_Assignment01_HRRIS.My.Resources.Resources.Button_Close_icon
-        Me.picErrorField4.Location = New System.Drawing.Point(358, 264)
+        Me.picErrorField4.Location = New System.Drawing.Point(329, 259)
         Me.picErrorField4.Name = "picErrorField4"
         Me.picErrorField4.Size = New System.Drawing.Size(25, 25)
         Me.picErrorField4.TabIndex = 95
@@ -193,7 +192,7 @@ Partial Class frmViewBooking
         'picErrorField3
         '
         Me.picErrorField3.Image = Global.s3568988_Assignment01_HRRIS.My.Resources.Resources.Button_Close_icon
-        Me.picErrorField3.Location = New System.Drawing.Point(358, 216)
+        Me.picErrorField3.Location = New System.Drawing.Point(329, 211)
         Me.picErrorField3.Name = "picErrorField3"
         Me.picErrorField3.Size = New System.Drawing.Size(25, 25)
         Me.picErrorField3.TabIndex = 94
@@ -203,7 +202,7 @@ Partial Class frmViewBooking
         'picErrorField2
         '
         Me.picErrorField2.Image = Global.s3568988_Assignment01_HRRIS.My.Resources.Resources.Button_Close_icon
-        Me.picErrorField2.Location = New System.Drawing.Point(358, 167)
+        Me.picErrorField2.Location = New System.Drawing.Point(329, 162)
         Me.picErrorField2.Name = "picErrorField2"
         Me.picErrorField2.Size = New System.Drawing.Size(25, 25)
         Me.picErrorField2.TabIndex = 93
@@ -227,7 +226,7 @@ Partial Class frmViewBooking
         'picErrorField1
         '
         Me.picErrorField1.Image = Global.s3568988_Assignment01_HRRIS.My.Resources.Resources.Button_Close_icon
-        Me.picErrorField1.Location = New System.Drawing.Point(358, 120)
+        Me.picErrorField1.Location = New System.Drawing.Point(329, 115)
         Me.picErrorField1.Name = "picErrorField1"
         Me.picErrorField1.Size = New System.Drawing.Size(25, 25)
         Me.picErrorField1.TabIndex = 92
@@ -375,9 +374,9 @@ Partial Class frmViewBooking
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.BookingidDataGridViewTextBoxColumn, Me.BookingdateDataGridViewTextBoxColumn, Me.RoomidDataGridViewTextBoxColumn, Me.CustomeridDataGridViewTextBoxColumn, Me.NumdaysDataGridViewTextBoxColumn, Me.NumguestsDataGridViewTextBoxColumn, Me.CheckindateDataGridViewTextBoxColumn, Me.TotalpriceDataGridViewTextBoxColumn, Me.CommentsDataGridViewTextBoxColumn})
         Me.DataGridView1.DataSource = Me.BookingBindingSource
-        Me.DataGridView1.Location = New System.Drawing.Point(405, 85)
+        Me.DataGridView1.Location = New System.Drawing.Point(370, 85)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(946, 361)
+        Me.DataGridView1.Size = New System.Drawing.Size(907, 361)
         Me.DataGridView1.TabIndex = 99
         '
         'BookingidDataGridViewTextBoxColumn
@@ -493,52 +492,43 @@ Partial Class frmViewBooking
         '
         'txtFilter
         '
-        Me.txtFilter.Location = New System.Drawing.Point(405, 39)
+        Me.txtFilter.Location = New System.Drawing.Point(370, 39)
         Me.txtFilter.Name = "txtFilter"
-        Me.txtFilter.Size = New System.Drawing.Size(807, 20)
+        Me.txtFilter.Size = New System.Drawing.Size(768, 20)
         Me.txtFilter.TabIndex = 121
         '
         'btnFilter
         '
-        Me.btnFilter.Location = New System.Drawing.Point(1235, 37)
+        Me.btnFilter.Location = New System.Drawing.Point(1169, 37)
         Me.btnFilter.Name = "btnFilter"
-        Me.btnFilter.Size = New System.Drawing.Size(113, 23)
+        Me.btnFilter.Size = New System.Drawing.Size(105, 23)
         Me.btnFilter.TabIndex = 120
         Me.btnFilter.Text = "Filter"
         Me.btnFilter.UseVisualStyleBackColor = True
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(211, 619)
+        Me.btnClear.Location = New System.Drawing.Point(277, 564)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(113, 23)
+        Me.btnClear.Size = New System.Drawing.Size(77, 23)
         Me.btnClear.TabIndex = 125
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = True
         '
-        'btnFind
-        '
-        Me.btnFind.Location = New System.Drawing.Point(55, 619)
-        Me.btnFind.Name = "btnFind"
-        Me.btnFind.Size = New System.Drawing.Size(113, 23)
-        Me.btnFind.TabIndex = 124
-        Me.btnFind.Text = "Find"
-        Me.btnFind.UseVisualStyleBackColor = True
-        '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(211, 564)
+        Me.btnDelete.Location = New System.Drawing.Point(160, 564)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(113, 23)
+        Me.btnDelete.Size = New System.Drawing.Size(80, 23)
         Me.btnDelete.TabIndex = 123
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(55, 564)
+        Me.btnUpdate.Location = New System.Drawing.Point(40, 564)
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(113, 23)
+        Me.btnUpdate.Size = New System.Drawing.Size(83, 23)
         Me.btnUpdate.TabIndex = 122
         Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = True
@@ -549,7 +539,6 @@ Partial Class frmViewBooking
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1284, 672)
         Me.Controls.Add(Me.btnClear)
-        Me.Controls.Add(Me.btnFind)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.btnUpdate)
         Me.Controls.Add(Me.txtFilter)
@@ -582,6 +571,8 @@ Partial Class frmViewBooking
         Me.Controls.Add(Me.lblRoomId)
         Me.Controls.Add(Me.lblBookingDate)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.MaximumSize = New System.Drawing.Size(1400, 710)
+        Me.MinimumSize = New System.Drawing.Size(1278, 710)
         Me.Name = "frmViewBooking"
         Me.Text = "View Booking"
         CType(Me.BookingBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
@@ -652,7 +643,6 @@ Partial Class frmViewBooking
     Friend WithEvents txtFilter As System.Windows.Forms.TextBox
     Friend WithEvents btnFilter As System.Windows.Forms.Button
     Friend WithEvents btnClear As System.Windows.Forms.Button
-    Friend WithEvents btnFind As System.Windows.Forms.Button
     Friend WithEvents btnDelete As System.Windows.Forms.Button
     Friend WithEvents btnUpdate As System.Windows.Forms.Button
 End Class

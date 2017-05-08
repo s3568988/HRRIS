@@ -74,7 +74,6 @@ Partial Class frmViewRoom
         Me.btnPrev = New System.Windows.Forms.Button()
         Me.btnFirst = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
-        Me.btnFind = New System.Windows.Forms.Button()
         Me.btnDelete = New System.Windows.Forms.Button()
         Me.btnUpdate = New System.Windows.Forms.Button()
         Me.txtFilter = New System.Windows.Forms.TextBox()
@@ -477,36 +476,27 @@ Partial Class frmViewRoom
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(203, 683)
+        Me.btnClear.Location = New System.Drawing.Point(256, 628)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(113, 23)
+        Me.btnClear.Size = New System.Drawing.Size(85, 23)
         Me.btnClear.TabIndex = 119
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = True
         '
-        'btnFind
-        '
-        Me.btnFind.Location = New System.Drawing.Point(47, 683)
-        Me.btnFind.Name = "btnFind"
-        Me.btnFind.Size = New System.Drawing.Size(113, 23)
-        Me.btnFind.TabIndex = 118
-        Me.btnFind.Text = "Find"
-        Me.btnFind.UseVisualStyleBackColor = True
-        '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(203, 628)
+        Me.btnDelete.Location = New System.Drawing.Point(138, 628)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(113, 23)
+        Me.btnDelete.Size = New System.Drawing.Size(92, 23)
         Me.btnDelete.TabIndex = 117
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(47, 628)
+        Me.btnUpdate.Location = New System.Drawing.Point(27, 628)
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(113, 23)
+        Me.btnUpdate.Size = New System.Drawing.Size(83, 23)
         Me.btnUpdate.TabIndex = 116
         Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = True
@@ -539,7 +529,6 @@ Partial Class frmViewRoom
         Me.Controls.Add(Me.btnPrev)
         Me.Controls.Add(Me.btnFirst)
         Me.Controls.Add(Me.btnClear)
-        Me.Controls.Add(Me.btnFind)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.btnUpdate)
         Me.Controls.Add(Me.txtRoomId)
@@ -632,7 +621,6 @@ Partial Class frmViewRoom
     Friend WithEvents btnPrev As System.Windows.Forms.Button
     Friend WithEvents btnFirst As System.Windows.Forms.Button
     Friend WithEvents btnClear As System.Windows.Forms.Button
-    Friend WithEvents btnFind As System.Windows.Forms.Button
     Friend WithEvents btnDelete As System.Windows.Forms.Button
     Friend WithEvents btnUpdate As System.Windows.Forms.Button
     Friend WithEvents txtFilter As System.Windows.Forms.TextBox
