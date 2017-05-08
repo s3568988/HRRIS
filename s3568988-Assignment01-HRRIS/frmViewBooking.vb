@@ -274,6 +274,8 @@ Public Class frmViewBooking
     End Sub
 
     Private Sub txtNumOfDay_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtNumOfDay.TextChanged
+
+        picErrorField3.Visible = False
         Try
 
             If cbbRoomId.SelectedIndex > -1 Then
@@ -383,5 +385,13 @@ Public Class frmViewBooking
             MsgBox("No record was found")
         End Try
 
+    End Sub
+
+    Private Sub txtCusId_TextChanged(sender As Object, e As EventArgs) Handles txtCusId.TextChanged
+        picErrorField2.Visible = False
+    End Sub
+
+    Private Sub txtNumOfGuest_TextChanged(sender As Object, e As EventArgs) Handles txtNumOfGuest.TextChanged
+        picErrorField4.Visible = False
     End Sub
 End Class

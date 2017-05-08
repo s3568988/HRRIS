@@ -294,4 +294,23 @@ Public Class frmViewRoom
         Me.RoomBindingSource.MoveNext()
     End Sub
 
+    Private Sub txtRoomNumber_TextChanged(sender As Object, e As EventArgs) Handles txtRoomNumber.TextChanged
+        picErrorField1.Visible = False
+    End Sub
+
+    Private Sub cbbType_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbbType.SelectedIndexChanged
+        picErrorField2.Visible = False
+    End Sub
+
+    Private Sub txtPrice_TextChanged(sender As Object, e As EventArgs) Handles txtPrice.TextChanged
+        picErrorField3.Visible = False
+    End Sub
+
+    Private Sub txtNumOfBed_TextChanged(sender As Object, e As EventArgs) Handles txtNumOfBed.TextChanged
+        picErrorField4.Visible = False
+    End Sub
+
+    Private Sub txtFloor_TextChanged(sender As Object, e As EventArgs) Handles txtFloor.TextChanged
+        picErrorField5.Visible = False
+    End Sub
 End Class

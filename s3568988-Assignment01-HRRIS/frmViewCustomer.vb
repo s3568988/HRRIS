@@ -392,6 +392,39 @@ Public Class frmViewCustomer
         
 
     End Sub
+
+    Private Sub txtCusId_TextChanged(sender As Object, e As EventArgs) Handles txtCusId.TextChanged
+
+    End Sub
+
+    Private Sub cbbTitle_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbbTitle.SelectedIndexChanged
+        picErrorField6.Visible = False
+    End Sub
+
+    Private Sub cbbGender_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbbGender.SelectedIndexChanged
+        picErrorField7.Visible = False
+    End Sub
+
+    Private Sub txtFirstName_TextChanged(sender As Object, e As EventArgs) Handles txtFirstName.TextChanged
+        picErrorField1.Visible = False
+    End Sub
+
+    Private Sub txtLastName_TextChanged(sender As Object, e As EventArgs) Handles txtLastName.TextChanged
+        picErrorField2.Visible = False
+
+    End Sub
+
+    Private Sub txtPhone_TextChanged(sender As Object, e As EventArgs) Handles txtPhone.TextChanged
+        picErrorField3.Visible = False
+    End Sub
+
+    Private Sub txtAddress_TextChanged(sender As Object, e As EventArgs) Handles txtAddress.TextChanged
+        picErrorField4.Visible = False
+    End Sub
+
+    Private Sub txtEmail_TextChanged(sender As Object, e As EventArgs) Handles txtEmail.TextChanged
+        picErrorField5.Visible = False
+    End Sub
 End Class
 
 
