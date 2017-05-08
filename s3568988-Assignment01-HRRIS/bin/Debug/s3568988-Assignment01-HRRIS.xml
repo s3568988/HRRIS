@@ -6,128 +6,7 @@ s3568988-Assignment01-HRRIS
 </name>
 </assembly>
 <members>
-<member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3.bookingDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3.bookingRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3.bookingRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.bookingTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.TableAdapterManager.UpdateAll(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2.roomDataTable">
-	<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2.roomRow">
-	<summary>
-Represents strongly named DataRow class.
-</summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2.roomRowChangeEvent">
-	<summary>
-Row event argument class
-</summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2">
-	<summary>
-Represents a strongly typed in-memory cache of data.
-</summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.roomTableAdapter">
-	<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Update rows in top-down order.
-</summary>
-</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Insert rows in top-down order.
-</summary>
-</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Delete rows in bottom-up order.
-</summary>
-</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
-	<summary>
-Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
-</summary>
-</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateAll(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2)">
-	<summary>
-Update all changes to the dataset.
-</summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
-	<summary>
-Update Order Option
-</summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
-	<summary>
-Used to sort self-referenced table's rows
-</summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.TableAdapterManager">
-	<summary>
-TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
-</summary>
-</member><member name="P:s3568988_Assignment01_HRRIS.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:s3568988_Assignment01_HRRIS.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="P:s3568988_Assignment01_HRRIS.My.Resources.Resources.Button_Close_icon">
-	<summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
-</summary>
-</member><member name="T:s3568988_Assignment01_HRRIS.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="P:s3568988_Assignment01_HRRIS.My.Resources.Booking.ResourceManager">
+<member name="P:s3568988_Assignment01_HRRIS.My.Resources.Booking.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -147,6 +26,58 @@ TableAdapterManager is used to coordinate TableAdapters in the dataset to enable
 </member><member name="T:s3568988_Assignment01_HRRIS.My.Resources.Booking">
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1.customerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1.customerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1.customerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.customerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateAll(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>
 </member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet.bookingDataTable">
 	<summary>
@@ -248,55 +179,55 @@ Used to sort self-referenced table's rows
 	<summary>
 TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1.customerDataTable">
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3.bookingDataTable">
 	<summary>
 Represents the strongly named DataTable class.
 </summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1.customerRow">
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3.bookingRow">
 	<summary>
 Represents strongly named DataRow class.
 </summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1.customerRowChangeEvent">
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3.bookingRowChangeEvent">
 	<summary>
 Row event argument class
 </summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1">
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3">
 	<summary>
 Represents a strongly typed in-memory cache of data.
 </summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.customerTableAdapter">
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.bookingTableAdapter">
 	<summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
-</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
 	<summary>
 Update rows in top-down order.
 </summary>
-</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
 	<summary>
 Insert rows in top-down order.
 </summary>
-</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
 	<summary>
 Delete rows in bottom-up order.
 </summary>
-</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
 	<summary>
 Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
 </summary>
-</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateAll(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1)">
+</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.TableAdapterManager.UpdateAll(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3)">
 	<summary>
 Update all changes to the dataset.
 </summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
 	<summary>
 Update Order Option
 </summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
 	<summary>
 Used to sort self-referenced table's rows
 </summary>
-</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet1TableAdapters.TableAdapterManager">
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet3TableAdapters.TableAdapterManager">
 	<summary>
 TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
 </summary>
@@ -308,6 +239,75 @@ TableAdapterManager is used to coordinate TableAdapters in the dataset to enable
 	<param name="hashValues">Key as name of the column and value as the value in the column</param>
 	<returns>True if successfully inserted the data.</returns>
 	<remarks>This function is not thread safe.</remarks>
+</member><member name="P:s3568988_Assignment01_HRRIS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:s3568988_Assignment01_HRRIS.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:s3568988_Assignment01_HRRIS.My.Resources.Resources.Button_Close_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2.roomDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2.roomRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2.roomRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.roomTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateAll(s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:s3568988_Assignment01_HRRIS._s3568988_HRRIS_DatabaseDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
 </member>
 </members>
 </doc>
