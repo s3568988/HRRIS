@@ -503,7 +503,7 @@ Partial Class frmViewBooking
         Me.btnFilter.Name = "btnFilter"
         Me.btnFilter.Size = New System.Drawing.Size(105, 23)
         Me.btnFilter.TabIndex = 120
-        Me.btnFilter.Text = "Filter"
+        Me.btnFilter.Text = "Search"
         Me.btnFilter.UseVisualStyleBackColor = True
         '
         'btnClear

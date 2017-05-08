@@ -513,7 +513,7 @@ Partial Class frmViewCustomer
         Me.btnFilter.Name = "btnFilter"
         Me.btnFilter.Size = New System.Drawing.Size(113, 23)
         Me.btnFilter.TabIndex = 108
-        Me.btnFilter.Text = "Filter"
+        Me.btnFilter.Text = "Search"
         Me.btnFilter.UseVisualStyleBackColor = True
         '
         'txtFilter

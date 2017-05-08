@@ -514,7 +514,7 @@ Partial Class frmViewRoom
         Me.btnFilter.Name = "btnFilter"
         Me.btnFilter.Size = New System.Drawing.Size(113, 23)
         Me.btnFilter.TabIndex = 124
-        Me.btnFilter.Text = "Filter"
+        Me.btnFilter.Text = "Search"
         Me.btnFilter.UseVisualStyleBackColor = True
         '
         'frmViewRoom
