@@ -73,7 +73,6 @@ Partial Class frmViewRoom
         Me.btnNext = New System.Windows.Forms.Button()
         Me.btnPrev = New System.Windows.Forms.Button()
         Me.btnFirst = New System.Windows.Forms.Button()
-        Me.btnClear = New System.Windows.Forms.Button()
         Me.btnDelete = New System.Windows.Forms.Button()
         Me.btnUpdate = New System.Windows.Forms.Button()
         Me.txtFilter = New System.Windows.Forms.TextBox()
@@ -474,18 +473,9 @@ Partial Class frmViewRoom
         Me.btnFirst.Text = "|<"
         Me.btnFirst.UseVisualStyleBackColor = True
         '
-        'btnClear
-        '
-        Me.btnClear.Location = New System.Drawing.Point(256, 628)
-        Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(85, 23)
-        Me.btnClear.TabIndex = 119
-        Me.btnClear.Text = "Clear"
-        Me.btnClear.UseVisualStyleBackColor = True
-        '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(138, 628)
+        Me.btnDelete.Location = New System.Drawing.Point(207, 628)
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(92, 23)
         Me.btnDelete.TabIndex = 117
@@ -494,7 +484,7 @@ Partial Class frmViewRoom
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(27, 628)
+        Me.btnUpdate.Location = New System.Drawing.Point(66, 628)
         Me.btnUpdate.Name = "btnUpdate"
         Me.btnUpdate.Size = New System.Drawing.Size(83, 23)
         Me.btnUpdate.TabIndex = 116
@@ -528,7 +518,6 @@ Partial Class frmViewRoom
         Me.Controls.Add(Me.btnNext)
         Me.Controls.Add(Me.btnPrev)
         Me.Controls.Add(Me.btnFirst)
-        Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.btnUpdate)
         Me.Controls.Add(Me.txtRoomId)
@@ -620,7 +609,6 @@ Partial Class frmViewRoom
     Friend WithEvents btnNext As System.Windows.Forms.Button
     Friend WithEvents btnPrev As System.Windows.Forms.Button
     Friend WithEvents btnFirst As System.Windows.Forms.Button
-    Friend WithEvents btnClear As System.Windows.Forms.Button
     Friend WithEvents btnDelete As System.Windows.Forms.Button
     Friend WithEvents btnUpdate As System.Windows.Forms.Button
     Friend WithEvents txtFilter As System.Windows.Forms.TextBox

@@ -294,14 +294,4 @@ Public Class frmViewRoom
         Me.RoomBindingSource.MoveNext()
     End Sub
 
-    Private Sub btnClear_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnClear.Click
-        txtRoomId.Clear()
-        txtRoomNumber.Clear()
-        cbbType.SelectedIndex = -1
-        txtPrice.Clear()
-        txtNumOfBed.Clear()
-        cbAvailability.Checked = False
-        txtFloor.Clear()
-        txtDescription.Clear()
-    End Sub
 End Class

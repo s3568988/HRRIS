@@ -77,7 +77,6 @@ Partial Class frmViewBooking
         Me.btnFirst = New System.Windows.Forms.Button()
         Me.txtFilter = New System.Windows.Forms.TextBox()
         Me.btnFilter = New System.Windows.Forms.Button()
-        Me.btnClear = New System.Windows.Forms.Button()
         Me.btnDelete = New System.Windows.Forms.Button()
         Me.btnUpdate = New System.Windows.Forms.Button()
         CType(Me.BookingBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -103,7 +102,7 @@ Partial Class frmViewBooking
         Me.txtComments.Multiline = True
         Me.txtComments.Name = "txtComments"
         Me.txtComments.Size = New System.Drawing.Size(202, 56)
-        Me.txtComments.TabIndex = 97
+        Me.txtComments.TabIndex = 9
         '
         'BookingBindingSource
         '
@@ -182,7 +181,7 @@ Partial Class frmViewBooking
         'picErrorField4
         '
         Me.picErrorField4.Image = Global.s3568988_Assignment01_HRRIS.My.Resources.Resources.Button_Close_icon
-        Me.picErrorField4.Location = New System.Drawing.Point(329, 259)
+        Me.picErrorField4.Location = New System.Drawing.Point(329, 264)
         Me.picErrorField4.Name = "picErrorField4"
         Me.picErrorField4.Size = New System.Drawing.Size(25, 25)
         Me.picErrorField4.TabIndex = 95
@@ -192,7 +191,7 @@ Partial Class frmViewBooking
         'picErrorField3
         '
         Me.picErrorField3.Image = Global.s3568988_Assignment01_HRRIS.My.Resources.Resources.Button_Close_icon
-        Me.picErrorField3.Location = New System.Drawing.Point(329, 211)
+        Me.picErrorField3.Location = New System.Drawing.Point(329, 216)
         Me.picErrorField3.Name = "picErrorField3"
         Me.picErrorField3.Size = New System.Drawing.Size(25, 25)
         Me.picErrorField3.TabIndex = 94
@@ -202,7 +201,7 @@ Partial Class frmViewBooking
         'picErrorField2
         '
         Me.picErrorField2.Image = Global.s3568988_Assignment01_HRRIS.My.Resources.Resources.Button_Close_icon
-        Me.picErrorField2.Location = New System.Drawing.Point(329, 162)
+        Me.picErrorField2.Location = New System.Drawing.Point(329, 167)
         Me.picErrorField2.Name = "picErrorField2"
         Me.picErrorField2.Size = New System.Drawing.Size(25, 25)
         Me.picErrorField2.TabIndex = 93
@@ -221,12 +220,12 @@ Partial Class frmViewBooking
         Me.txtCusId.Location = New System.Drawing.Point(121, 171)
         Me.txtCusId.Name = "txtCusId"
         Me.txtCusId.Size = New System.Drawing.Size(202, 20)
-        Me.txtCusId.TabIndex = 96
+        Me.txtCusId.TabIndex = 4
         '
         'picErrorField1
         '
         Me.picErrorField1.Image = Global.s3568988_Assignment01_HRRIS.My.Resources.Resources.Button_Close_icon
-        Me.picErrorField1.Location = New System.Drawing.Point(329, 115)
+        Me.picErrorField1.Location = New System.Drawing.Point(329, 120)
         Me.picErrorField1.Name = "picErrorField1"
         Me.picErrorField1.Size = New System.Drawing.Size(25, 25)
         Me.picErrorField1.TabIndex = 92
@@ -250,7 +249,7 @@ Partial Class frmViewBooking
         Me.txtTotalPrice.Name = "txtTotalPrice"
         Me.txtTotalPrice.ReadOnly = True
         Me.txtTotalPrice.Size = New System.Drawing.Size(202, 20)
-        Me.txtTotalPrice.TabIndex = 88
+        Me.txtTotalPrice.TabIndex = 8
         '
         'lblTotalPrice
         '
@@ -268,7 +267,7 @@ Partial Class frmViewBooking
         Me.DateTimePicker2.MinDate = New Date(2017, 3, 31, 0, 0, 0, 0)
         Me.DateTimePicker2.Name = "DateTimePicker2"
         Me.DateTimePicker2.Size = New System.Drawing.Size(202, 20)
-        Me.DateTimePicker2.TabIndex = 86
+        Me.DateTimePicker2.TabIndex = 7
         '
         'lblCheckinDate
         '
@@ -286,7 +285,7 @@ Partial Class frmViewBooking
         Me.DateTimePicker1.Location = New System.Drawing.Point(121, 85)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(202, 20)
-        Me.DateTimePicker1.TabIndex = 84
+        Me.DateTimePicker1.TabIndex = 2
         '
         'txtNumOfGuest
         '
@@ -294,7 +293,7 @@ Partial Class frmViewBooking
         Me.txtNumOfGuest.Location = New System.Drawing.Point(121, 269)
         Me.txtNumOfGuest.Name = "txtNumOfGuest"
         Me.txtNumOfGuest.Size = New System.Drawing.Size(202, 20)
-        Me.txtNumOfGuest.TabIndex = 83
+        Me.txtNumOfGuest.TabIndex = 6
         '
         'lblNumOfGuest
         '
@@ -313,7 +312,7 @@ Partial Class frmViewBooking
         Me.cbbRoomId.Location = New System.Drawing.Point(121, 124)
         Me.cbbRoomId.Name = "cbbRoomId"
         Me.cbbRoomId.Size = New System.Drawing.Size(105, 21)
-        Me.cbbRoomId.TabIndex = 81
+        Me.cbbRoomId.TabIndex = 3
         '
         'txtNumOfDay
         '
@@ -321,7 +320,7 @@ Partial Class frmViewBooking
         Me.txtNumOfDay.Location = New System.Drawing.Point(121, 221)
         Me.txtNumOfDay.Name = "txtNumOfDay"
         Me.txtNumOfDay.Size = New System.Drawing.Size(202, 20)
-        Me.txtNumOfDay.TabIndex = 80
+        Me.txtNumOfDay.TabIndex = 5
         '
         'lblNumOfDay
         '
@@ -443,7 +442,7 @@ Partial Class frmViewBooking
         Me.txtBookingId.Location = New System.Drawing.Point(122, 39)
         Me.txtBookingId.Name = "txtBookingId"
         Me.txtBookingId.Size = New System.Drawing.Size(202, 20)
-        Me.txtBookingId.TabIndex = 101
+        Me.txtBookingId.TabIndex = 1
         '
         'lblBookingId
         '
@@ -506,18 +505,9 @@ Partial Class frmViewBooking
         Me.btnFilter.Text = "Search"
         Me.btnFilter.UseVisualStyleBackColor = True
         '
-        'btnClear
-        '
-        Me.btnClear.Location = New System.Drawing.Point(277, 564)
-        Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(77, 23)
-        Me.btnClear.TabIndex = 125
-        Me.btnClear.Text = "Clear"
-        Me.btnClear.UseVisualStyleBackColor = True
-        '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(160, 564)
+        Me.btnDelete.Location = New System.Drawing.Point(224, 564)
         Me.btnDelete.Name = "btnDelete"
         Me.btnDelete.Size = New System.Drawing.Size(80, 23)
         Me.btnDelete.TabIndex = 123
@@ -526,7 +516,7 @@ Partial Class frmViewBooking
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(40, 564)
+        Me.btnUpdate.Location = New System.Drawing.Point(81, 564)
         Me.btnUpdate.Name = "btnUpdate"
         Me.btnUpdate.Size = New System.Drawing.Size(83, 23)
         Me.btnUpdate.TabIndex = 122
@@ -538,7 +528,6 @@ Partial Class frmViewBooking
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1284, 672)
-        Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.btnUpdate)
         Me.Controls.Add(Me.txtFilter)
@@ -642,7 +631,6 @@ Partial Class frmViewBooking
     Friend WithEvents btnFirst As System.Windows.Forms.Button
     Friend WithEvents txtFilter As System.Windows.Forms.TextBox
     Friend WithEvents btnFilter As System.Windows.Forms.Button
-    Friend WithEvents btnClear As System.Windows.Forms.Button
     Friend WithEvents btnDelete As System.Windows.Forms.Button
     Friend WithEvents btnUpdate As System.Windows.Forms.Button
 End Class

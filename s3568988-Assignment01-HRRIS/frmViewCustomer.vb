@@ -313,21 +313,6 @@ Public Class frmViewCustomer
     End Sub
 
 
-    Private Sub btnClear_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnClear.Click
-        txtCusId.Clear()
-        cbbTitle.SelectedIndex = -1
-        cbbGender.SelectedIndex = -1
-        txtFirstName.Clear()
-        txtLastName.Clear()
-        txtPhone.Clear()
-        txtAddress.Clear()
-        txtEmail.Clear()
-        DateOfBirth.CustomFormat = ""
-        DateOfBirth.Format = DateTimePickerFormat.Custom
-
-
-    End Sub
-
     Public Sub showData(ByVal position As Integer)
         Dim oCommand As New OleDbCommand("select * from customer", oConnection)
         Dim adapter As New OleDbDataAdapter(oCommand)

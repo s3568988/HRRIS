@@ -356,20 +356,6 @@ Public Class frmViewBooking
         End Try
     End Sub
 
-    Private Sub btnClear_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnClear.Click
-        txtBookingId.Clear()
-        DateTimePicker1.CustomFormat = ""
-        DateTimePicker1.Format = DateTimePickerFormat.Custom
-        cbbRoomId.SelectedIndex = -1
-        txtCusId.Clear()
-        txtNumOfDay.Clear()
-        txtNumOfGuest.Clear()
-        DateTimePicker2.CustomFormat = ""
-        DateTimePicker2.Format = DateTimePickerFormat.Custom
-        txtTotalPrice.Clear()
-        txtComments.Clear()
-    End Sub
-
     Public Sub FilterData(ByVal valueToSearch As String)
 
         Dim searchQuery As String = "select * from booking where booking_id like '%" & txtFilter.Text & _
