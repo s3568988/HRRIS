@@ -186,7 +186,7 @@ Partial Class frmViewCustomer
         Me.DateOfBirth.Location = New System.Drawing.Point(84, 386)
         Me.DateOfBirth.Name = "DateOfBirth"
         Me.DateOfBirth.Size = New System.Drawing.Size(177, 20)
-        Me.DateOfBirth.TabIndex = 84
+        Me.DateOfBirth.TabIndex = 9
         '
         'CustomerBindingSource
         '
@@ -216,7 +216,7 @@ Partial Class frmViewCustomer
         Me.cbbGender.Location = New System.Drawing.Point(84, 117)
         Me.cbbGender.Name = "cbbGender"
         Me.cbbGender.Size = New System.Drawing.Size(103, 21)
-        Me.cbbGender.TabIndex = 78
+        Me.cbbGender.TabIndex = 3
         '
         'Label2
         '
@@ -245,7 +245,7 @@ Partial Class frmViewCustomer
         Me.cbbTitle.Location = New System.Drawing.Point(84, 81)
         Me.cbbTitle.Name = "cbbTitle"
         Me.cbbTitle.Size = New System.Drawing.Size(103, 21)
-        Me.cbbTitle.TabIndex = 77
+        Me.cbbTitle.TabIndex = 2
         '
         'txtFirstName
         '
@@ -253,7 +253,7 @@ Partial Class frmViewCustomer
         Me.txtFirstName.Location = New System.Drawing.Point(84, 158)
         Me.txtFirstName.Name = "txtFirstName"
         Me.txtFirstName.Size = New System.Drawing.Size(177, 20)
-        Me.txtFirstName.TabIndex = 79
+        Me.txtFirstName.TabIndex = 4
         '
         'btnUpdate
         '
@@ -279,7 +279,7 @@ Partial Class frmViewCustomer
         Me.txtLastName.Location = New System.Drawing.Point(84, 201)
         Me.txtLastName.Name = "txtLastName"
         Me.txtLastName.Size = New System.Drawing.Size(177, 20)
-        Me.txtLastName.TabIndex = 80
+        Me.txtLastName.TabIndex = 5
         '
         'Label5
         '
@@ -305,7 +305,7 @@ Partial Class frmViewCustomer
         Me.txtEmail.Location = New System.Drawing.Point(84, 335)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.Size = New System.Drawing.Size(177, 20)
-        Me.txtEmail.TabIndex = 83
+        Me.txtEmail.TabIndex = 8
         '
         'txtPhone
         '
@@ -313,7 +313,7 @@ Partial Class frmViewCustomer
         Me.txtPhone.Location = New System.Drawing.Point(84, 243)
         Me.txtPhone.Name = "txtPhone"
         Me.txtPhone.Size = New System.Drawing.Size(177, 20)
-        Me.txtPhone.TabIndex = 81
+        Me.txtPhone.TabIndex = 6
         '
         'Label7
         '
@@ -339,7 +339,7 @@ Partial Class frmViewCustomer
         Me.txtAddress.Location = New System.Drawing.Point(84, 288)
         Me.txtAddress.Name = "txtAddress"
         Me.txtAddress.Size = New System.Drawing.Size(177, 20)
-        Me.txtAddress.TabIndex = 82
+        Me.txtAddress.TabIndex = 7
         '
         'picErrorField7
         '
@@ -491,11 +491,13 @@ Partial Class frmViewCustomer
         '
         'txtCusId
         '
+        Me.txtCusId.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.txtCusId.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.CustomerBindingSource, "customer_id", True))
         Me.txtCusId.Location = New System.Drawing.Point(84, 43)
         Me.txtCusId.Name = "txtCusId"
+        Me.txtCusId.ReadOnly = True
         Me.txtCusId.Size = New System.Drawing.Size(177, 20)
-        Me.txtCusId.TabIndex = 106
+        Me.txtCusId.TabIndex = 1
         '
         'btnDelete
         '

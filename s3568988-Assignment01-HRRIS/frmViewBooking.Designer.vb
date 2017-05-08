@@ -438,9 +438,11 @@ Partial Class frmViewBooking
         '
         'txtBookingId
         '
+        Me.txtBookingId.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.txtBookingId.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.BookingBindingSource, "booking_id", True))
         Me.txtBookingId.Location = New System.Drawing.Point(122, 39)
         Me.txtBookingId.Name = "txtBookingId"
+        Me.txtBookingId.ReadOnly = True
         Me.txtBookingId.Size = New System.Drawing.Size(202, 20)
         Me.txtBookingId.TabIndex = 1
         '

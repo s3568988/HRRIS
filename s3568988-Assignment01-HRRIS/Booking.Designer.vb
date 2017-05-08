@@ -76,14 +76,14 @@ Partial Class frmBooking
         Me.cbbRoomId.Location = New System.Drawing.Point(121, 102)
         Me.cbbRoomId.Name = "cbbRoomId"
         Me.cbbRoomId.Size = New System.Drawing.Size(105, 21)
-        Me.cbbRoomId.TabIndex = 55
+        Me.cbbRoomId.TabIndex = 2
         '
         'txtNumOfDay
         '
         Me.txtNumOfDay.Location = New System.Drawing.Point(121, 199)
         Me.txtNumOfDay.Name = "txtNumOfDay"
         Me.txtNumOfDay.Size = New System.Drawing.Size(202, 20)
-        Me.txtNumOfDay.TabIndex = 50
+        Me.txtNumOfDay.TabIndex = 4
         '
         'lblNumOfDay
         '
@@ -126,7 +126,7 @@ Partial Class frmBooking
         Me.txtNumOfGuest.Location = New System.Drawing.Point(121, 247)
         Me.txtNumOfGuest.Name = "txtNumOfGuest"
         Me.txtNumOfGuest.Size = New System.Drawing.Size(202, 20)
-        Me.txtNumOfGuest.TabIndex = 58
+        Me.txtNumOfGuest.TabIndex = 5
         '
         'lblNumOfGuest
         '
@@ -143,7 +143,7 @@ Partial Class frmBooking
         Me.DateTimePicker1.Location = New System.Drawing.Point(121, 63)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(202, 20)
-        Me.DateTimePicker1.TabIndex = 59
+        Me.DateTimePicker1.TabIndex = 1
         '
         'DateTimePicker2
         '
@@ -151,7 +151,7 @@ Partial Class frmBooking
         Me.DateTimePicker2.MinDate = New Date(2017, 3, 31, 0, 0, 0, 0)
         Me.DateTimePicker2.Name = "DateTimePicker2"
         Me.DateTimePicker2.Size = New System.Drawing.Size(202, 20)
-        Me.DateTimePicker2.TabIndex = 61
+        Me.DateTimePicker2.TabIndex = 6
         '
         'lblCheckinDate
         '
@@ -168,7 +168,7 @@ Partial Class frmBooking
         Me.txtTotalPrice.Name = "txtTotalPrice"
         Me.txtTotalPrice.ReadOnly = True
         Me.txtTotalPrice.Size = New System.Drawing.Size(202, 20)
-        Me.txtTotalPrice.TabIndex = 63
+        Me.txtTotalPrice.TabIndex = 7
         '
         'lblTotalPrice
         '
@@ -253,7 +253,7 @@ Partial Class frmBooking
         Me.txtCusId.Location = New System.Drawing.Point(121, 149)
         Me.txtCusId.Name = "txtCusId"
         Me.txtCusId.Size = New System.Drawing.Size(202, 20)
-        Me.txtCusId.TabIndex = 73
+        Me.txtCusId.TabIndex = 3
         '
         'txtComments
         '
@@ -261,7 +261,7 @@ Partial Class frmBooking
         Me.txtComments.Multiline = True
         Me.txtComments.Name = "txtComments"
         Me.txtComments.Size = New System.Drawing.Size(202, 80)
-        Me.txtComments.TabIndex = 74
+        Me.txtComments.TabIndex = 8
         '
         'MenuStrip1
         '

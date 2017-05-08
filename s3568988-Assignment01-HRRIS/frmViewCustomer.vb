@@ -109,6 +109,7 @@ Public Class frmViewCustomer
         nameError = New TextBox() {txtFirstName, txtLastName}
         picError3 = New PictureBox() {picErrorField1, picErrorField2}
 
+        'run loop to validate numeric, empty
         Try
             For iCounter As Integer = 0 To (picError.Length - 1)
 
@@ -152,7 +153,7 @@ Public Class frmViewCustomer
                 End If
             Next
 
-
+            'use boolean because the number of msgbox will show according to the number of error 
             If emptyValid = False Then
                 MessageBox.Show("Do not leave this blank")
 
@@ -161,11 +162,12 @@ Public Class frmViewCustomer
             End If
 
 
+            'if no error, update record
             If bAllFieldsValid And emptyValid Then
 
                 Debug.Print("Connection string: " & oConnection.ConnectionString)
 
-
+                'update record
                 oConnection.Open()
                 access = "UPDATE customer SET title = '" & cbbTitle.Text & "', gender = '" & cbbGender.Text & _
                     "', firstname ='" & txtFirstName.Text & "' , lastname ='" & txtLastName.Text & "' , phone = '" & txtPhone.Text & _
@@ -203,6 +205,7 @@ Public Class frmViewCustomer
     Private Sub DataGridView1_CellClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DataGridView1.CellClick
         Dim i As Integer
 
+        'click on each cell on the datagridview will show data on text box
         i = DataGridView1.CurrentRow.Index
         Try
             txtCusId.Text = CStr(CInt(DataGridView1.Item(0, i).Value))
@@ -225,6 +228,7 @@ Public Class frmViewCustomer
         Try
             oConnection.Open()
 
+            'delete record
             If MsgBox("Do you want to delete this record?", MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
                 Dim delcmd As New OleDbCommand("delete from customer where customer_id=" & txtCusId.Text & " ", oConnection)
                 delcmd.ExecuteNonQuery()
@@ -255,6 +259,7 @@ Public Class frmViewCustomer
 
     Public Sub FilterData(ByVal valueToSearch As String)
 
+        'searching
         Dim searchQuery As String = "select * from customer where customer_id like '%" & txtFilter.Text & _
             "%' or gender like '%" & txtFilter.Text & "%' Or firstname like '%" & txtFilter.Text & _
             "%' or lastname like '%" & txtFilter.Text & "%' or phone like '%" & txtFilter.Text & _

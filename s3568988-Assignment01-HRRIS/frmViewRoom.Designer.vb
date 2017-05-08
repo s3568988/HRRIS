@@ -230,7 +230,7 @@ Partial Class frmViewRoom
         Me.cbAvailability.Location = New System.Drawing.Point(114, 315)
         Me.cbAvailability.Name = "cbAvailability"
         Me.cbAvailability.Size = New System.Drawing.Size(15, 14)
-        Me.cbAvailability.TabIndex = 92
+        Me.cbAvailability.TabIndex = 6
         Me.cbAvailability.UseVisualStyleBackColor = True
         '
         'RoomBindingSource
@@ -251,7 +251,7 @@ Partial Class frmViewRoom
         Me.cbbType.Location = New System.Drawing.Point(114, 159)
         Me.cbbType.Name = "cbbType"
         Me.cbbType.Size = New System.Drawing.Size(105, 21)
-        Me.cbbType.TabIndex = 89
+        Me.cbbType.TabIndex = 3
         '
         'txtDescription
         '
@@ -259,7 +259,7 @@ Partial Class frmViewRoom
         Me.txtDescription.Location = New System.Drawing.Point(114, 419)
         Me.txtDescription.Name = "txtDescription"
         Me.txtDescription.Size = New System.Drawing.Size(202, 88)
-        Me.txtDescription.TabIndex = 88
+        Me.txtDescription.TabIndex = 8
         Me.txtDescription.Text = ""
         '
         'lblDescription
@@ -277,7 +277,7 @@ Partial Class frmViewRoom
         Me.txtFloor.Location = New System.Drawing.Point(114, 365)
         Me.txtFloor.Name = "txtFloor"
         Me.txtFloor.Size = New System.Drawing.Size(202, 20)
-        Me.txtFloor.TabIndex = 86
+        Me.txtFloor.TabIndex = 7
         '
         'lblFloor
         '
@@ -303,7 +303,7 @@ Partial Class frmViewRoom
         Me.txtNumOfBed.Location = New System.Drawing.Point(114, 259)
         Me.txtNumOfBed.Name = "txtNumOfBed"
         Me.txtNumOfBed.Size = New System.Drawing.Size(202, 20)
-        Me.txtNumOfBed.TabIndex = 83
+        Me.txtNumOfBed.TabIndex = 5
         '
         'lblNumOfBed
         '
@@ -320,7 +320,7 @@ Partial Class frmViewRoom
         Me.txtPrice.Location = New System.Drawing.Point(114, 208)
         Me.txtPrice.Name = "txtPrice"
         Me.txtPrice.Size = New System.Drawing.Size(202, 20)
-        Me.txtPrice.TabIndex = 81
+        Me.txtPrice.TabIndex = 4
         '
         'lblPrice
         '
@@ -346,7 +346,7 @@ Partial Class frmViewRoom
         Me.txtRoomNumber.Location = New System.Drawing.Point(114, 116)
         Me.txtRoomNumber.Name = "txtRoomNumber"
         Me.txtRoomNumber.Size = New System.Drawing.Size(202, 20)
-        Me.txtRoomNumber.TabIndex = 78
+        Me.txtRoomNumber.TabIndex = 2
         '
         'lblRoomNumber
         '
@@ -422,20 +422,22 @@ Partial Class frmViewRoom
         '
         'txtRoomId
         '
+        Me.txtRoomId.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.txtRoomId.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.RoomBindingSource, "room_id", True))
         Me.txtRoomId.Location = New System.Drawing.Point(114, 70)
         Me.txtRoomId.Name = "txtRoomId"
+        Me.txtRoomId.ReadOnly = True
         Me.txtRoomId.Size = New System.Drawing.Size(202, 20)
-        Me.txtRoomId.TabIndex = 101
+        Me.txtRoomId.TabIndex = 1
         '
         'lblRoomId
         '
         Me.lblRoomId.AutoSize = True
         Me.lblRoomId.Location = New System.Drawing.Point(14, 73)
         Me.lblRoomId.Name = "lblRoomId"
-        Me.lblRoomId.Size = New System.Drawing.Size(52, 13)
+        Me.lblRoomId.Size = New System.Drawing.Size(49, 13)
         Me.lblRoomId.TabIndex = 100
-        Me.lblRoomId.Text = "Room_ID"
+        Me.lblRoomId.Text = "Room ID"
         '
         'btnLast
         '
